@@ -1,9 +1,9 @@
-# Cryptostake
+# Nightstake
 Code originally by The Bytecoin and Cryptonote Team, edited by System96
 
-## What is Cryptostake?
+## What is Nightstake?
 
-Essentially, Cryptostake is the same as the original Cryptonote protocol, but with Proof Of Stake added on to it. So basically, it allows
+Essentially, Nightstake is the same as the original Cryptonote protocol, but with Proof Of Stake added on to it. So basically, it allows
 people to make POW/POS anonymous coins. I might make a entirely POS version of Cryptonote, we'll just have to see.
 
 ## Build instructions:
