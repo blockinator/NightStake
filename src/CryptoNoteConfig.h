@@ -95,7 +95,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 // Change the name of your coin lol
-const char     CRYPTONOTE_NAME[]                             = "Cryptostake";
+const char     CRYPTONOTE_NAME[]                             = "Nightstake";
 // Keep in mind unlike Cryptonote reference code, the genesis block tx is in src/CryptoNoteCore/currency.cpp, so put your genesis block there
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -129,8 +129,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "E29507CA55455F37A3B783EE2C5123B8B6A34A0C5CAAE050922C6254161480C1"; // I honestly dont know what this is lol
 
 const char* const SEED_NODES[] = {
-  "seed.bytecoin.org:8080", // CHANGE YOUR FUCKIN SEED NODES
-  "85.25.201.95:8080", // CHANGE YOUR FUCKIN SEED NODES
+  "165.227.122.194:8080", // CHANGE YOUR FUCKIN SEED NODES
+  "159.89.187.223:8080", // CHANGE YOUR FUCKIN SEED NODES
 };
 
 struct CheckpointData {
