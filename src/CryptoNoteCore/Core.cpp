@@ -2053,7 +2053,7 @@ TransactionDetails Core::getTransactionDetails(const Crypto::Hash& transactionHa
       transactionDetails.mixin = currentMixin;
     }
   }
-  //Commented out for testing errors
+  //Commented out section for testing errors
   /*
   transactionDetails.currentMixin;
     if (currentMixin > FORCE_MIXIN_SIZE)
