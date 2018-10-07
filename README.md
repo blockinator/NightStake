@@ -2,9 +2,7 @@
 Code originally by The Bytecoin and Cryptonote Team, edited by System96 & Blockinator
 
 ## What is Nightstake?
-
-Essentially, Nightstake is the same as the original Cryptonote protocol, but with Proof Of Stake added on to it. So basically, it allows
-people to make POW/POS anonymous coins.
+NightStake is a Pow/PoS coin built on the CryptoNight algorithm.
 
 ## Build instructions:
 
