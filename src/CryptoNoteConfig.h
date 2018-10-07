@@ -27,7 +27,7 @@ namespace parameters {
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 6; // addresses start with "2"
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0xe; // addresses start with "n"
 const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 10;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
   
@@ -95,7 +95,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 // Change the name of your coin lol
-const char     CRYPTONOTE_NAME[]                             = "Nightstake";
+const char     CRYPTONOTE_NAME[]                             = "nightstake";
 // Keep in mind unlike Cryptonote reference code, the genesis block tx is in src/CryptoNoteCore/currency.cpp, so put your genesis block there
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -129,8 +129,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "E29507CA55455F37A3B783EE2C5123B8B6A34A0C5CAAE050922C6254161480C1"; // I honestly dont know what this is lol
 
 const char* const SEED_NODES[] = {
-  "165.227.122.194:8080", // CHANGE YOUR FUCKIN SEED NODES
-  "159.89.187.223:8080", // CHANGE YOUR FUCKIN SEED NODES
+  "165.227.122.194:8080", // CHANGE SEED NODES
+  "159.89.187.223:8080", // CHANGE SEED NODES
 };
 
 struct CheckpointData {
