@@ -2053,13 +2053,15 @@ TransactionDetails Core::getTransactionDetails(const Crypto::Hash& transactionHa
       transactionDetails.mixin = currentMixin;
     }
   }
-  
+  //Commented out for testing errors
+  /*
   transactionDetails.currentMixin;
     if (currentMixin > FORCE_MIXIN_SIZE)
     {
       cout << "Cannot send transaction: Mixin must be at least mixin size 6";
     }
-
+  */
+  //
   transactionDetails.paymentId = boost::value_initialized<Crypto::Hash>();
   if (transaction->getPaymentId(transactionDetails.paymentId)) {
     transactionDetails.hasPaymentId = true;
