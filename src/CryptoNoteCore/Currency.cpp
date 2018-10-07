@@ -96,7 +96,7 @@ bool Currency::generateGenesisBlock() {
   //std::string hex_tx_represent = Common::toHex(txb);
 
   // Hard code coinbase tx in genesis block, because through generating tx use random, but genesis should be always the same
-  std::string genesisCoinbaseTxHex = "";
+  std::string genesisCoinbaseTxHex = "010a01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101740cabfa72884fbe268afd0f3d616ecccaf3293d0ac6d631b5111f6981d5fef7";
   BinaryArray minerTxBlob;
   // genesisCoinbaseTxHex is where you need to put your genesis hash! Create your genesis hash via forknote code because it seems the genesis hash creation function was removed from bytecoin code :/
   bool r =
