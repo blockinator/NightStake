@@ -31,7 +31,7 @@ const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0xe; // addresses
 const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 10;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
   
-#define FORCE_MIXIN_SIZE                                     6 // Every tx on the chain is required to have a mixin size of 6
+#define FORCE_MIXIN_SIZE                                     6; // Every tx on the chain is required to have a mixin size of 6
 
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 
