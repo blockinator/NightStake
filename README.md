@@ -1,4 +1,4 @@
-# Nightstake
+# NightStake
 Code originally by The Bytecoin and Cryptonote Team, edited by System96 & Blockinator
 
 ## What is Nightstake?
