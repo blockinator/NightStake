@@ -1003,12 +1003,14 @@ bool simple_wallet::transfer(const std::vector<std::string> &args) {
       fail_msg_writer() << "Can't send money";
       return true;
     }
+    //Commented out for error testing
+    /*
     if (mixin_str > FORCE_MIXIN_SIZE)
     {
       fail_msg_writer() << "Cannot transfer money, Mixin size is too low! Must be at least mixin size 6!";
       return true;
     }
-
+    */
     std::error_code sendError = sent.wait(tx);
     removeGuard.removeObserver();
 
