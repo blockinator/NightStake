@@ -51,7 +51,7 @@ const uint64_t MINIMUM_FEE                                   = UINT64_C(1000000)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(1000000);    // pow(10, 6)
 
 const size_t   ADDRESSES_STAKED_PER_BLOCK                    = 1;  // How many addresses get a staking reward per block
-const size_t   STAKING_CHANCE_PER_BLOCK                      = 0.1; // Basically the chance that you will get a staking reward per block, every time you dont get a reward, your staking chance increases by the amount you set it as. When you get your staking reward, your staking chance resets to 0.
+const size_t   STAKING_CHANCE_PER_BLOCK                      = 1 / 10; // Basically the chance that you will get a staking reward per block, every time you dont get a reward, your staking chance increases by the amount you set it as. When you get your staking reward, your staking chance resets to 0.
 const size_t   SECONDS_BEFORE_COIN_MATURITY                  = 10000000; // Basically how many seconds before staking begins, set it seconds so it can be exact
 const uint64_t MINIMUM_STAKE_AMOUNT                          = UINT64_C(10000000); // This is how many coins you need for staking, make sure to put the amount needed in atomic units!!! p.s, if your coins maximum supply is via uint64_t -1 replace UINT64_C with that
 const size_t   STAKE_PERCENT_PER_YEAR                        = 5;   // Basically how much the stake reward is per year in percent
